@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;   
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    margin-top: 250px;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: cadetblue;
+}
+#kirish{
+    width: 30%;
+    height: 5vh;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    border: none;
+    background-color: dodgerblue;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+}
+
+/* Writer text part */
+
+#console{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    margin-left: 25px; 
+    text-align: center;
+    padding: 20px; 
+  }
+
